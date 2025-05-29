@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Web Pro</title>
+    <style>
+        /* ----- CSS ----- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #023e8a;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .btn {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #023e8a;
+        }
+        footer {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Agência Web Pro</h1>
+        <p>Soluções Criativas em Desenvolvimento Web</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <div class="container">
+        <h2>Bem-vindo!</h2>
+        <p>Construímos sites modernos, rápidos e responsivos para seu negócio.</p>
+
+        <button class="btn" id="btnContato">Fale Conosco</button>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        &copy; 2025 Agência Web Pro. Todos os direitos reservados.
+    </footer>
+
+    <!-- ----- JavaScript ----- -->
+    <script>
+        document.getElementById('btnContato').onclick = function() {
+            alert('Obrigado por entrar em contato! Envie um e-mail para: contato@agenciawebpro.com');
+        }
+    </script>
+
+</body>
+</html>
